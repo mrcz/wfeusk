@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+
+members = ["wfeusk"]
+
+[profile.release]
+opt-level = 3
+lto = true
+
+[profile.test]
+opt-level = 1
